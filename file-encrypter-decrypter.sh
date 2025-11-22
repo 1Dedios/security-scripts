@@ -52,7 +52,7 @@ then
 		exit 0
 	fi
 	
-elif [[ "$CHOICE" -ne 1 && "$CHOICE" -ne 2 ]];
+else 
 then
 
 	echo -e "\nYou've entered an invalid option."
